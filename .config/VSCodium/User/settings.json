@@ -1,0 +1,51 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 12,
+  "editor.minimap.enabled": false,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/lib/jvm/java-25-openjdk",
+    },
+  ],
+  "java.configuration.detectJdksAtStart": false,
+  "git.autofetch": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "markdown-preview-enhanced.previewTheme": "night.css",
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://biomejs.dev": true,
+  },
+  "terminal.integrated.initialHint": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*",
+  },
+  "redhat.telemetry.enabled": true,
+    "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
