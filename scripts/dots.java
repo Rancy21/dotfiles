@@ -82,7 +82,9 @@ class Dots implements Runnable {
 
                     addPathToManifest(sourcePath, targetPath, getHomePath().toString());
 
-                    System.out.printf("\n\nsuccessfully saved %s. A symlink has created in the parent directory",
+                    System.out.printf(
+                            "\n\nsuccessfully saved %s. A symlink has been created in "
+                                    + fileAbsolutePath.getParent().toString(),
                             targetPath.getFileName().toString());
 
                 }
