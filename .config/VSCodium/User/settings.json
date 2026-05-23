@@ -45,7 +45,31 @@
     "*.s3db": "${capture}.${extname}-*",
   },
   "redhat.telemetry.enabled": true,
-    "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+    },
+  },
+  "[go.mod]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+    },
+  },
+  "editor.formatOnPaste": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.buildOnSave": "off",
+  "go.coverOnSingleTest": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+  "files.associations": {
+    "*.kt": "gradle-kotlin-dsl",
   },
 }

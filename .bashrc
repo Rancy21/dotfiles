@@ -1,4 +1,4 @@
-echo $PATH > ~/.path.bak
+echo $PATH >~/.path.bak
 
 # where I save my keys info
 source $HOME/.envrc
@@ -27,10 +27,16 @@ export PATH=/home/larryck/.opencode/bin:$PATH
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export PATH="$PATH:$HOME/scripts"
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
 
 . "$HOME/.local/share/../bin/env"
 
 # Add JBang to environment
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+export GRAALVM_HOME=/home/larryck/.sdkman/candidates/java/current/bin/java
