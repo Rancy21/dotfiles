@@ -11,12 +11,6 @@
   "files.autoSave": "onFocusChange",
   "editor.fontSize": 12,
   "editor.minimap.enabled": false,
-  "java.configuration.runtimes": [
-    {
-      "name": "JavaSE-21",
-      "path": "/usr/lib/jvm/java-25-openjdk",
-    },
-  ],
   "java.configuration.detectJdksAtStart": false,
   "git.autofetch": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",

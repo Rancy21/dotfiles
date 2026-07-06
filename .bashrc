@@ -27,7 +27,6 @@ export PATH=/home/larryck/.opencode/bin:$PATH
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export PATH="$PATH:$HOME/scripts"
-export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
 
 . "$HOME/.local/share/../bin/env"
 
