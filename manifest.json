@@ -1,52 +1,102 @@
-[ {
-  "source" : "/home/larryck/dotfiles/.bashrc",
-  "target" : ".bashrc"
-}, {
-  "source" : "/home/larryck/dotfiles/.aliasrc",
-  "target" : ".aliasrc"
-}, {
-  "source" : "/home/larryck/dotfiles/.pi/agent/AGENTS.md",
-  "target" : ".pi/agent/AGENTS.md"
-}, {
-  "source" : "/home/larryck/dotfiles/.pi/agent/skills/readme/SKILL.md",
-  "target" : ".pi/agent/skills/readme/SKILL.md"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/waybar/config.jsonc",
-  "target" : ".config/waybar/config.jsonc"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/waybar/style.css",
-  "target" : ".config/waybar/style.css"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/hypr/bindings.conf",
-  "target" : ".config/hypr/bindings.conf"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/hypr/envs.conf",
-  "target" : ".config/hypr/envs.conf"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/hypr/input.conf",
-  "target" : ".config/hypr/input.conf"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/hypr/monitors.conf",
-  "target" : ".config/hypr/monitors.conf"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/hypr/looknfeel.conf",
-  "target" : ".config/hypr/looknfeel.conf"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/VSCodium/User/settings.json",
-  "target" : ".config/VSCodium/User/settings.json"
-}, {
-  "source" : "/home/larryck/dotfiles/scripts/dim-brightness.sh",
-  "target" : "scripts/dim-brightness.sh"
-}, {
-  "source" : "/home/larryck/dotfiles/scripts/restore-brightness.sh",
-  "target" : "scripts/restore-brightness.sh"
-}, {
-  "source" : "/home/larryck/dotfiles/scripts/midview/mdview.py",
-  "target" : "scripts/midview/mdview.py"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/gtk-3.0/settings.ini",
-  "target" : ".config/gtk-3.0/settings.ini"
-}, {
-  "source" : "/home/larryck/dotfiles/.config/gtk-3.0/bookmarks",
-  "target" : ".config/gtk-3.0/bookmarks"
-} ]
+[
+  {
+    "source": "/home/larryck/dotfiles/.bashrc",
+    "target": ".bashrc"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.aliasrc",
+    "target": ".aliasrc"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.pi/agent/AGENTS.md",
+    "target": ".pi/agent/AGENTS.md"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.pi/agent/skills/readme/SKILL.md",
+    "target": ".pi/agent/skills/readme/SKILL.md"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/waybar/config.jsonc",
+    "target": ".config/waybar/config.jsonc"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/waybar/style.css",
+    "target": ".config/waybar/style.css"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/hypr/bindings.conf",
+    "target": ".config/hypr/bindings.conf"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/hypr/envs.conf",
+    "target": ".config/hypr/envs.conf"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/hypr/input.conf",
+    "target": ".config/hypr/input.conf"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/hypr/monitors.conf",
+    "target": ".config/hypr/monitors.conf"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/hypr/looknfeel.conf",
+    "target": ".config/hypr/looknfeel.conf"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/VSCodium/User/settings.json",
+    "target": ".config/VSCodium/User/settings.json"
+  },
+  {
+    "source": "/home/larryck/dotfiles/scripts/dim-brightness.sh",
+    "target": "scripts/dim-brightness.sh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/scripts/restore-brightness.sh",
+    "target": "scripts/restore-brightness.sh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/scripts/midview/mdview.py",
+    "target": "scripts/midview/mdview.py"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/gtk-3.0/settings.ini",
+    "target": ".config/gtk-3.0/settings.ini"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/gtk-3.0/bookmarks",
+    "target": ".config/gtk-3.0/bookmarks"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/init.lua",
+    "target": ".config/nvim/init.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/nvim-pack-lock.json",
+    "target": ".config/nvim/nvim-pack-lock.json"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/aliases.zsh",
+    "target": ".config/zsh/aliases.zsh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/bindings.zsh",
+    "target": ".config/zsh/bindings.zsh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/fzf.zsh",
+    "target": ".config/zsh/fzf.zsh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/plugins.zsh",
+    "target": ".config/zsh/plugins.zsh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/prompt.zsh",
+    "target": ".config/zsh/prompt.zsh"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/starship.toml",
+    "target": ".config/zsh/starship.toml"
+  }
+]
