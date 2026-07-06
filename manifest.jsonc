@@ -43,4 +43,10 @@
 }, {
   "source" : "/home/larryck/dotfiles/scripts/midview/mdview.py",
   "target" : "scripts/midview/mdview.py"
+}, {
+  "source" : "/home/larryck/dotfiles/.config/gtk-3.0/settings.ini",
+  "target" : ".config/gtk-3.0/settings.ini"
+}, {
+  "source" : "/home/larryck/dotfiles/.config/gtk-3.0/bookmarks",
+  "target" : ".config/gtk-3.0/bookmarks"
 } ]
