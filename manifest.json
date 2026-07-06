@@ -98,5 +98,9 @@
   {
     "source": "/home/larryck/dotfiles/.config/zsh/starship.toml",
     "target": ".config/zsh/starship.toml"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zsh/.zshrc",
+    "target": ".config/zsh/.zshrc"
   }
 ]
