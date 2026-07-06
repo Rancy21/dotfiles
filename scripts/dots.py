@@ -152,6 +152,7 @@ def cmd_sync(args) -> int:
             backup_path = Path(str(target_path) + ".bak")
             target_path.rename(backup_path)
             print(f"deleted and created: {target_rel}")
+            target_path.parent.mkdir(parents=True, exist_ok=True)
             target_path.symlink_to(source_path)
             continue
 
@@ -159,6 +160,7 @@ def cmd_sync(args) -> int:
             # remove a stale symlink if present, then (re)create it
             if target_path.is_symlink():
                 target_path.unlink()
+            target_path.parent.mkdir(parents=True, exist_ok=True)
             target_path.symlink_to(source_path)
 
     return 1 if errors else 0
