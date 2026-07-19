@@ -28,7 +28,6 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export PATH="$PATH:$HOME/scripts"
 
-. "$HOME/.local/share/../bin/env"
 
 # Add JBang to environment
 alias j!=jbang
