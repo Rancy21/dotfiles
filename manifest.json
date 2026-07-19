@@ -106,5 +106,9 @@
   {
     "source": "/home/larryck/dotfiles/.config/zsh/.zshenv",
     "target": ".config/zsh/.zshenv"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/zed/settings.json",
+    "target": ".config/zed/settings.json"
   }
 ]
