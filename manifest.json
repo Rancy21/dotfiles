@@ -110,5 +110,61 @@
   {
     "source": "/home/larryck/dotfiles/.config/zed/settings.json",
     "target": ".config/zed/settings.json"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/aliases",
+    "target": ".local/share/omarchy/default/bash/aliases"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/completions",
+    "target": ".local/share/omarchy/default/bash/completions"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/envs",
+    "target": ".local/share/omarchy/default/bash/envs"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/compression",
+    "target": ".local/share/omarchy/default/bash/fns/compression"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/drives",
+    "target": ".local/share/omarchy/default/bash/fns/drives"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/ssh-port-forwarding",
+    "target": ".local/share/omarchy/default/bash/fns/ssh-port-forwarding"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/tmux",
+    "target": ".local/share/omarchy/default/bash/fns/tmux"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/transcoding",
+    "target": ".local/share/omarchy/default/bash/fns/transcoding"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/fns/worktrees",
+    "target": ".local/share/omarchy/default/bash/fns/worktrees"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/functions",
+    "target": ".local/share/omarchy/default/bash/functions"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/init",
+    "target": ".local/share/omarchy/default/bash/init"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/inputrc",
+    "target": ".local/share/omarchy/default/bash/inputrc"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/rc",
+    "target": ".local/share/omarchy/default/bash/rc"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/shell",
+    "target": ".local/share/omarchy/default/bash/shell"
   }
 ]
