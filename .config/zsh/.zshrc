@@ -39,7 +39,6 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export PATH="$PATH:$HOME/scripts"
 
-. "$HOME/.local/share/../bin/env"
 
 # Add JBang to environment
 alias j!=jbang
@@ -98,3 +97,6 @@ source "$ZDOTDIR/plugins.zsh"
 
 # Prompt/theme
 source "$ZDOTDIR/prompt.zsh"
+
+# Pi
+export PATH="/home/larryck/.local/share/pi-node/node-v22.23.1-linux-x64/bin:$PATH"
