@@ -39,6 +39,9 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export PATH="$PATH:$HOME/scripts"
 
+# Start the agent 
+eval "$(ssh-agent -s)"
+
 
 # Add JBang to environment
 alias j!=jbang
