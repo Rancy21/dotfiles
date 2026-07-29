@@ -9,6 +9,7 @@ vim.o.tabstop = 4
 vim.o.swapfile = false
 vim.g.mapleader = " " -- set <Space> as the leader key
 vim.o.winborder = "rounded"
+vim.opt.clipboard = "unnamedplus"
 
 --- --------------------
 --- KEYMAPS ------------

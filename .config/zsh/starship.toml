@@ -41,8 +41,10 @@ symbol = ""
 format = "[$symbol $version](green) "
 
 [python]
-symbol = ""
+disabled = false
+python_binary = "python3"
 format = "[$symbol $version](yellow) "
+symbol = ""
 
 [rust]
 symbol = ""
