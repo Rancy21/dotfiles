@@ -166,5 +166,21 @@
   {
     "source": "/home/larryck/dotfiles/.local/share/omarchy/default/bash/shell",
     "target": ".local/share/omarchy/default/bash/shell"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/niri/config.kdl",
+    "target": ".config/niri/config.kdl"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/ghostty/config",
+    "target": ".config/ghostty/config"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/helix/config.toml",
+    "target": ".config/helix/config.toml"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/helix/languages.toml",
+    "target": ".config/helix/languages.toml"
   }
 ]

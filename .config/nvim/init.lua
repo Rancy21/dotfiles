@@ -193,4 +193,4 @@ require("blink.cmp").setup({
 -- ADD AND/OR ENABLE LANGUAGE SERVERS
 --- ============================================================
 vim.lsp.enable('gopls')
-vim.lsp.enable({ "lua_ls", "pyright" })
+vim.lsp.enable({ "lua_ls", "pyright", "typescript-language-server" })

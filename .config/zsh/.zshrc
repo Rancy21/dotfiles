@@ -100,3 +100,6 @@ source "$ZDOTDIR/prompt.zsh"
 
 # Pi
 export PATH="/home/larryck/.local/share/pi-node/node-v22.23.1-linux-x64/bin:$PATH"
+
+# kilo
+export PATH=/home/larryck/.kilo/bin:$PATH

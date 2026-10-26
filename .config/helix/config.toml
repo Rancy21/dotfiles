@@ -1,0 +1,17 @@
+
+theme="catppuccin_mocha"
+
+[editor]
+bufferline = "multiple"
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.normal]
+"A-w" = ":w"
+"A-q" = ":q"
+
+
