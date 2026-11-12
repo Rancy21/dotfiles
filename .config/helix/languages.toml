@@ -58,15 +58,19 @@ formatter = { command = "prettier", args = ["--parser", "typescript"] }
 
 # HTMl/CSS
 # ==============================================
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
 [[language]]
 name = "html"
 auto-format = true
-language-servers = ["vscode-html-language-server"]
+language-servers = ["vscode-html-language-server", "emmet-lsp"]
 
 [[language]]
 name = "css"
 auto-format = true
-language-servers = ["vscode-css-language-server"]
+language-servers = ["vscode-css-language-server", "emmet-lsp"]
 
 [language-server.vscode-html-language-server]
 command = "vscode-html-language-server"
