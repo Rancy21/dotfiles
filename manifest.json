@@ -182,5 +182,9 @@
   {
     "source": "/home/larryck/dotfiles/.config/helix/languages.toml",
     "target": ".config/helix/languages.toml"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/helix/themes/catppuccin_mocha_transparent.toml",
+    "target": ".config/helix/themes/catppuccin_mocha_transparent.toml"
   }
 ]
