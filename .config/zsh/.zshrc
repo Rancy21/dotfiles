@@ -103,3 +103,12 @@ export PATH="/home/larryck/.local/share/pi-node/node-v22.23.1-linux-x64/bin:$PAT
 
 # kilo
 export PATH=/home/larryck/.kilo/bin:$PATH
+
+
+#==========================================
+#        Function commands
+# =========================================
+
+mkcd(){
+  mkdir -p "$1" && cd "$1"
+}
