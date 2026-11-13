@@ -45,6 +45,7 @@ formatter = { command = "prettier", args = ["--parser", "typescript"] }
 name = "tsx"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["typescript-language-server"]
 
 [[language]]
 name = "javascript"
