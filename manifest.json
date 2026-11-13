@@ -186,5 +186,69 @@
   {
     "source": "/home/larryck/dotfiles/.config/helix/themes/catppuccin_mocha_transparent.toml",
     "target": ".config/helix/themes/catppuccin_mocha_transparent.toml"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lazy-lock.json",
+    "target": ".config/nvim/lazy-lock.json"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/config/autocmds.lua",
+    "target": ".config/nvim/lua/config/autocmds.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/config/keymaps.lua",
+    "target": ".config/nvim/lua/config/keymaps.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/config/options.lua",
+    "target": ".config/nvim/lua/config/options.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/autopairs.lua",
+    "target": ".config/nvim/lua/plugins/autopairs.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/bufferline.lua",
+    "target": ".config/nvim/lua/plugins/bufferline.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/completion.lua",
+    "target": ".config/nvim/lua/plugins/completion.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/fidget.lua",
+    "target": ".config/nvim/lua/plugins/fidget.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/formatting.lua",
+    "target": ".config/nvim/lua/plugins/formatting.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/gitsings.lua",
+    "target": ".config/nvim/lua/plugins/gitsings.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/lsp.lua",
+    "target": ".config/nvim/lua/plugins/lsp.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/mini.lua",
+    "target": ".config/nvim/lua/plugins/mini.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/telescope.lua",
+    "target": ".config/nvim/lua/plugins/telescope.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/todo-comments.lua",
+    "target": ".config/nvim/lua/plugins/todo-comments.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/treesitter.lua",
+    "target": ".config/nvim/lua/plugins/treesitter.lua"
+  },
+  {
+    "source": "/home/larryck/dotfiles/.config/nvim/lua/plugins/which-key.lua",
+    "target": ".config/nvim/lua/plugins/which-key.lua"
   }
 ]
